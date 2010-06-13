@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical">
+  	<include android:id="@+id/include_top_bar" layout="@layout/title_bar" />
+  	<LinearLayout
+		android:id="@+id/ll_shadow"
+		android:layout_width="fill_parent"
+		android:layout_height="10dip"
+		android:orientation="vertical"
+		android:background="@drawable/shadow" />
+	<ScrollView 
+		android:id="@+id/ScrollView01" 
+		android:layout_width="fill_parent" 
+		android:layout_height="0dp"
+		android:layout_weight="1">
+	   	<LinearLayout
+		    android:orientation="vertical"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:padding="5px">
+			<TextView 
+				android:text="@string/tvEmail"
+				android:id="@+id/tvEmail" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content">
+			</TextView>
+			<EditText 
+				android:id="@+id/etEmail" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content">
+			</EditText>
+			<TextView 
+				android:text="@string/tvPhone"
+				android:id="@+id/tvPhone" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content">
+			</TextView>
+			<EditText 
+				android:id="@+id/etPhone" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:inputType="number">
+			</EditText>
+			<TextView 
+				android:text="@string/tvFeedback"
+				android:id="@+id/tvFeedback" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content">
+			</TextView>
+			<EditText 
+				android:id="@+id/etFeedback" 
+				android:layout_width="fill_parent" 
+				android:layout_height="100dip">
+			</EditText>
+			<TextView  
+				android:text="@string/tvRating"
+				android:id="@+id/tvRating" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content">
+			</TextView>
+			<RatingBar 
+				android:id="@+id/ratingBar" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:numStars="4"
+				android:rating="0"
+				android:stepSize="1" >
+			</RatingBar>
+		</LinearLayout>
+	</ScrollView>
+	
+	<LinearLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:background="#CCC"
+		android:padding="4px">
+		<Button 
+			android:text="@string/btnSubmit"
+			android:id="@+id/btnSubmit" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_weight="1" />
+		<Button 
+			android:text="@string/btnCancel"
+			android:id="@+id/btnCancel" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_weight="1"/>
+	</LinearLayout>
+</LinearLayout>

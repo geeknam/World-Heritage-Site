@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">World Heritage Sites</string>
+    
+    <!-- Names in Feedback -->
+	<string name="tvEmail">Email:</string>
+	<string name="tvPhone">Phone:</string>
+	<string name="tvFeedback">Feedback:</string>
+	<string name="tvRating">Rating:</string>
+	<string name="btnSubmit">Submit</string>
+	<string name="btnCancel">Cancel</string>
+	<string name="view_feedback">View Feedback</string>
+	
+	<!-- Names in Main -->
+	<string name="webView">View Web</string>
+	<string name="mapView">View Map</string>
+	<string name="send_feedback">Send Feedback</string>
+	<string name="delete">Delete</string>
+	<string name="menu_close">Exit</string>
+	<string name="menu_about">About</string>
+	<string name="menu_report">Report a bug</string>
+	<string name="help">Help</string>
+	
+	
+	<!-- Names in Map -->
+	<string name="map_view">Map View</string>
+	<string name="satellite_view">Satellite View</string>
+	<string name="my_location">My Location</string>
+	<string name="gps_alert">Your GPS seems to be disabled, please enable it</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name = "sites">
+		<item>Taj Mahal</item>
+		<item>Angkor Wat</item>
+		<item>The Great Wall</item>
+		<item>Great Barrier Reef</item>
+		<item>Persepolis</item>
+		<item>Kakadu National Park</item>
+		<item>Sydney Opera House</item>
+		<item>Himeji Castle</item>
+		<item>Jongmyo shrine</item>
+		<item>Samarra</item>
+		<item>Republic Polytechnic</item>
+	</string-array>
+	
+	<string-array name="geo">
+		<item>27.174858,78.042383</item>
+		<item>13.412226,103.865454</item>
+		<item>40.343633,116.001635</item>
+		<item>-17.711625,146.741207</item>
+		<item>29.9333,52.9</item>
+		<item>-13.092359,132.393837</item>
+		<item>-33.856874,151.214962</item>
+		<item>34.83937,134.694024</item>
+		<item>37.6333,126.9833</item>
+		<item>34.1928,43.8856</item>
+		<item>1.443185,103.785634</item>
+	</string-array>
+	
+	<string-array name = "url">
+		<item>http://en.wikipedia.org/wiki/Taj_Mahal</item>
+		<item>http://en.wikipedia.org/wiki/Angkor_Wat</item>
+		<item>http://en.wikipedia.org/wiki/Great_Wall_of_China</item>
+		<item>http://en.wikipedia.org/wiki/Great_Barrier_Reef</item>
+		<item>http://en.wikipedia.org/wiki/Persepolis</item>
+		<item>http://en.wikipedia.org/wiki/Kakadu_National_Park</item>
+		<item>http://en.wikipedia.org/wiki/Sydney_Opera_House</item>
+		<item>http://en.wikipedia.org/wiki/Himeji_Castle</item>
+		<item>http://en.wikipedia.org/wiki/Jongmyo_shrine</item>
+		<item>http://en.wikipedia.org/wiki/Samarra</item>
+		<item>http://en.wikipedia.org/wiki/Singapore</item>
+	</string-array>
+</resources>
